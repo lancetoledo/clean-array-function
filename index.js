@@ -10,7 +10,7 @@ let newArray = [];
 
 function cleanArray(anyArray) {
   for (let i = 0; i < anyArray.length; i++) {
-    if (!!array[i]) {
+    if (array[i]) {
       newArray.push(array[i]);
     }
   }
